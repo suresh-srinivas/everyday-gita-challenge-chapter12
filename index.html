@@ -5,18 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EveryDay G.I.T.A Challenge</title>
     <style>
-        .participant {
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-        }
+.participant {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
 
-        .participant img {
-            margin-right: 15px;
-            width: 80px; /* Adjust as per your requirement */
-            height: 80px; /* Adjust as per your requirement */
-            border-radius: 50%; /* This will make the images circular */
-        }
+    .participant img {
+      margin-right: 15px;
+      width: 80px; /* Adjust as per your requirement */
+      height: 80px; /* Adjust as per your requirement */
+      border-radius: 50%; /* This will make the images circular */
+    }
+
+    .YouTubeVideo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .YouTubeVideo img {
+      margin-right: 15px;
+      width: 200px; /* Increased size for the thumbnail */
+      height: auto;
+      border-radius: 10px; /* Rounded corners for the thumbnail */
+    }
+
+    .YouTubeVideo .details {
+      flex-grow: 1;
+    }
+
     </style>
 </head>
 <body>
@@ -25,7 +43,7 @@
         <img src="main_image.jpeg" alt="Challenge Image" width="300">
     </header>
     <main>
-        <h2>Chapter 1: Participants' Recitations</h2>
+        <h2>Chapter 1: Participants' Recitations: Audio </h2>
         <div class="participant">
             <img src="Anusree.jpg" alt="Participant 1">
             <div>
@@ -86,6 +104,8 @@
                 </audio>
             </div>
         </div>
+  
+       <h2> Chapter 1: Participants' Recitation: Video </h2>
         <div class="participant">
             <img src="Aarav.jpg" alt="Participant 8">
             <div class = "YouTubeVideo">
@@ -95,6 +115,16 @@
                 </a>
             </div>
         </div>
+        <div class="participant">
+            <img src="Suresh.jpg" alt="Participant 6">
+            <div class = "YouTubeVideo">
+                <strong>Suresh Srinivas (click ThumbNail & watch video) </strong>
+                <a href="https://www.youtube.com/watch?v=cYyrw857rlw" target="_blank">
+                   <img src="https://img.youtube.com/vi/cYyrw857rlw/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </a>
+            </div>
+        </div>
+
         <h2>Chapter 12: Participants' Recitations</h2>
         <div class="participant">
             <img src="Kirti.png" alt="Participant 1">
@@ -166,16 +196,17 @@
                 </audio>
             </div>
         </div>
+        <h2>Chapter 12: Participants' Video Recitations</h2>
         <div class="participant">
             <img src="Sudamshu.png" alt="Participant 8">
-            <div>
-                <strong>Sudamshu </strong>
-                <video controls>
-                    <source src="Sudamshu.mp4" type="video/mp4">
-                    Your browser does not support the audio element.
-                </video>
+            <div class = "YouTubeVideo">
+                <strong>Sudamshu (click ThumbNail & watch video) </strong>
+                <a href="https://www.youtube.com/watch?v=YJ027I9OFPI" target="_blank">
+                   <img src="https://img.youtube.com/vi/YJ027I9OFPI/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </a>
             </div>
         </div>
+
         <h2>Chapter 13: Participants' Recitations</h2>
         <div class="participant">
             <img src="Sriprada.jpeg" alt="Participant 1">
